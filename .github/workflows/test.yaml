@@ -18,6 +18,7 @@ jobs:
         with:
           scope: chris-octo-sts-test/test-octo-sts
           identity: foo
+          domain: octo-sts.stacklok.dev
           
       - env:
           GH_TOKEN: ${{ steps.octo-sts.outputs.token }}
